@@ -1,0 +1,30 @@
+.top_header{
+    height: 60px;
+    background-color: #313131;
+}
+
+.top_header .phone a{
+    color: #fff;
+    line-height: 55px;
+}
+
+.top_header .social a{
+    color: #fff;
+    line-height: 55px;
+    margin-left: 15px;
+}
+
+.top_header .social{
+    display: block;
+    text-align: center;
+}
+
+@media(max-width:600px){
+    .top_header{
+        height: auto;
+    }
+    .top_header .phone{
+        display: block;
+        text-align: center;
+    }
+}
